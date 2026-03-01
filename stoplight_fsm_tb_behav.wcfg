@@ -10,13 +10,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="999,999 ps"></ZoomStartTime>
-      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
-      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="34.801 ns"></ZoomEndTime>
+      <Cursor1Time time="120.400 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="383"></NameColumnWidth>
-      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="7" />
    <wvobject fp_name="/stoplight_fsm_tb/w_C" type="logic">
@@ -35,6 +35,22 @@
       <obj_property name="ElementShortName">w_stoplight[2:0]</obj_property>
       <obj_property name="ObjectShortName">w_stoplight[2:0]</obj_property>
       <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/stoplight_fsm_tb/w_stoplight[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/stoplight_fsm_tb/w_stoplight[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/stoplight_fsm_tb/w_stoplight[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="/stoplight_fsm_tb/k_clk_period" type="other">
       <obj_property name="ElementShortName">k_clk_period</obj_property>
